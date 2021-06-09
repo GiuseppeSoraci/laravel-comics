@@ -1,0 +1,46 @@
+header{
+    padding-left: 50px;
+    background-color: #fff;
+
+    .container {
+        justify-content: space-between;
+        text-transform: uppercase;
+        font-weight: bold;
+        line-height: 100px;
+        font-size: 14px;
+
+        .logo {
+            align-items: center;
+
+            img  {
+            width: 80px;
+            }
+        }
+
+        /* Menù */
+        .menu ul {
+            justify-content: center;
+
+            li {
+                margin-left: 20px;
+                text-transform: uppercase;
+
+                a {
+                    color: #514c5b;
+                }
+                a:hover {
+                    color: #097bed;
+                }
+            }
+        }
+
+    }
+
+}
+
+.selected {
+    color: #0182F9;
+}
+.active {
+    border-bottom: 5px solid #0182F9;
+}
